@@ -51,15 +51,15 @@ class App extends Component {
         <div className="App-title">
           Reminder Champ
         </div>
-        <div className="App-form-inline remineder-form">
+        <div className="form-inline remineder-form">
           <div className="App-form-group">
             <input type="text"
-            className="App-form-control"
+            className="form-control"
             placeholder="Needs to do something..."
             onChange = {(event) => this.setState({text: event.target.value})}
             />
             <input
-            className="App-form-control"
+            className="form-control"
             type="datetime-local"
             onChange=  {(event) => this.setState({dueDate:event.target.value})}
             />
